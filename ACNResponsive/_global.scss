@@ -1,0 +1,41 @@
+﻿@import '_variables.scss';
+
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+body {
+    background-color: #f7f7f7;
+    margin: 0;
+    font-family: $font-family;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.icon-flipped {
+    transform: scaleX(-1);
+    -moz-transform: scaleX(-1);
+    -webkit-transform: scaleX(-1);
+    -ms-transform: scaleX(-1);
+}
+
+/* ARTICLE CAPTION COLORS */
+.lime-green {
+    background-color: #9AC652;
+}
+
+.baby-blue {
+    background-color: #24B6D4;
+}
+
+.orange {
+    background-color: #EF6431;
+}
+
+.grey {
+    background-color: #7E888D;
+}
